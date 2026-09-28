@@ -22,7 +22,7 @@ State never lives here or in §4: only the §8 status line carries it (✅ done 
 ## Stage 1 — Ideation & concept
 - **Objective:** turn a hunch into a product concept with a defensible difference.
 - **Key decisions:** the one-line product statement; who pays vs who uses; the moat thesis. A feature is never a moat (an incumbent clones it in a sprint). Positioning an incumbent *can't copy without betraying its own brand* can be.
-- **Deliverables:** product statement and moat thesis in `PLAN_MAESTRO.md` §2.
+- **Deliverables:** product statement and moat thesis in `MASTER_PLAN.md` §2.
 - **Done when:** both are written down and the PM agrees with them.
 - **Split:** PM owns the vision and picks between options. Claude challenges the thesis and names the incumbents it has to beat.
 

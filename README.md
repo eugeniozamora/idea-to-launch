@@ -12,7 +12,7 @@ It was built and tested end to end on [Byrnit](https://github.com/eugeniozamora/
 
 AI can build a lot, but every conversation starts with no memory. Over weeks of work that becomes the real bottleneck: repeated debates, lost decisions, and sessions that start by re-learning the project. This method makes a cold start cost nothing:
 
-- **One source of truth.** A single `PLAN_MAESTRO.md` holds the goal, the locked decisions and their reasons, the stages and the current state.
+- **One source of truth.** A single `MASTER_PLAN.md` holds the goal, the locked decisions and their reasons, the stages and the current state.
 - **The same open and close ritual every session.** Open: read the state, propose a plan. Close: update the state and log the decisions. A session that doesn't update the plan didn't happen.
 - **Verifiable criteria.** Every task is written as `[action] → verify: [check]`, so it can be checked by someone who didn't do it.
 - **Small, vertical, tested.** The MVP ships as thin end-to-end slices, test first, with PM QA after each one.
@@ -68,7 +68,7 @@ skills/idea-to-launch/
 │   ├── stages.md               the 8 stages in detail
 │   └── decisions.md            how to record locked, parked, booked and reversed decisions
 └── templates/
-    ├── PLAN_MAESTRO.md         blank source-of-truth plan
+    ├── MASTER_PLAN.md          blank source-of-truth plan
     ├── LOG.md                  session log, newest first
     └── CLAUDE.md               project instructions skeleton
 PROMPTS.md                      ready-to-paste prompts

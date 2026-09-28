@@ -1,6 +1,6 @@
 ---
 name: idea-to-launch
-description: Run a product from idea to go-live with a human product manager (PM) who decides and Claude who builds, across many cold-start sessions. Covers the 8 stages (ideation, market listening, brand, UX, landing + waitlist, MVP in vertical slices, launch, analytics, growth), a PLAN_MAESTRO.md source of truth, session start/close rituals, decision records and verifiable criteria. Use this whenever someone wants to start a new app, SaaS or product from an idea, says they're a PM/founder who doesn't code and wants Claude to build it, mentions PLAN_MAESTRO.md, asks to open or close a working session on a product, asks "which stage are we on" or "what's next", or wants to plan market research, branding, a landing page, a launch or post-launch iteration — even if they never say "methodology".
+description: Run a product from idea to go-live with a human product manager (PM) who decides and Claude who builds, across many cold-start sessions. Covers the 8 stages (ideation, market listening, brand, UX, landing + waitlist, MVP in vertical slices, launch, analytics, growth), a MASTER_PLAN.md source of truth, session start/close rituals, decision records and verifiable criteria. Use this whenever someone wants to start a new app, SaaS or product from an idea, says they're a PM/founder who doesn't code and wants Claude to build it, mentions MASTER_PLAN.md, asks to open or close a working session on a product, asks "which stage are we on" or "what's next", or wants to plan market research, branding, a landing page, a launch or post-launch iteration — even if they never say "methodology".
 ---
 
 # Idea to Launch
@@ -16,11 +16,11 @@ The full rationale is in `references/methodology.md`. Read it when the user asks
 
 ## Figure out which mode you're in
 
-Look for `PLAN_MAESTRO.md` in the project root before doing anything else.
+Look for `MASTER_PLAN.md` in the project root before doing anything else.
 
 | Situation | Mode |
 |---|---|
-| No `PLAN_MAESTRO.md`, user describes an idea | **Kickoff** |
+| No `MASTER_PLAN.md`, user describes an idea | **Kickoff** |
 | Plan exists, start of a conversation | **Open session** |
 | User says to wrap up, close, or log the session | **Close session** |
 | Mid-session work on a stage | **Stage work** |
@@ -31,7 +31,7 @@ Look for `PLAN_MAESTRO.md` in the project root before doing anything else.
 1. Work through Stage 1 with the PM using the `superpowers:brainstorming` skill if available, one question at a time: the one-line product statement, the moat thesis (why an incumbent can't copy it without breaking its own brand), and who pays versus who uses it.
 2. Ask whether it's B2C or B2B. For B2B, Stage 2 becomes customer interviews instead of community listening, and the go/no-go gates at Stages 2 and 4B are mandatory (see `references/stages.md`).
 3. Show the PM the skeleton plan before creating files. Then create:
-   - `PLAN_MAESTRO.md` from `templates/PLAN_MAESTRO.md` → verify: §0–§8 exist, locked decisions are in the §1 table, §8 holds only status, next step and open items.
+   - `MASTER_PLAN.md` from `templates/MASTER_PLAN.md` → verify: §0–§8 exist, locked decisions are in the §1 table, §8 holds only status, next step and open items.
    - `LOG.md` from `templates/LOG.md` with the first dated entry → verify: newest first.
    - A project `CLAUDE.md` from `templates/CLAUDE.md` → verify: under 60 lines, no state or history.
    - The folders: `docs/stage-N-name/`, `docs/plans/`, `_archive/` → verify: they exist.
@@ -39,7 +39,7 @@ Look for `PLAN_MAESTRO.md` in the project root before doing anything else.
 
 ### Open session
 
-Read `PLAN_MAESTRO.md` §8 and the newest `LOG.md` entry, plus any doc they link for the current task. Then summarise the state in three lines and propose the session plan in the `[action] → verify: [check]` format. Don't start work until the PM agrees, because the plan is where misunderstandings are cheapest to fix.
+Read `MASTER_PLAN.md` §8 and the newest `LOG.md` entry, plus any doc they link for the current task. Then summarise the state in three lines and propose the session plan in the `[action] → verify: [check]` format. Don't start work until the PM agrees, because the plan is where misunderstandings are cheapest to fix.
 
 If the PM names a stage or task, read that stage in `references/stages.md` too.
 
@@ -47,7 +47,7 @@ If the PM names a stage or task, read that stage in `references/stages.md` too.
 
 A session that doesn't update the plan didn't happen: the next conversation will start blind. So:
 
-1. Update `PLAN_MAESTRO.md` §8: the global status line, the **concrete** next step (specific enough that a cold session can start it), and open items. Keep §8 under about 40 lines; history belongs in the log.
+1. Update `MASTER_PLAN.md` §8: the global status line, the **concrete** next step (specific enough that a cold session can start it), and open items. Keep §8 under about 40 lines; history belongs in the log.
 2. Add a `LOG.md` entry at the top: decisions and their reasons, what was verified and how, the skills used, and the PR link. Don't repeat code detail that git already records.
 3. If a stage's state changed, update only the §8 status line. Stage headers in §4 don't carry state, so they never go stale.
 

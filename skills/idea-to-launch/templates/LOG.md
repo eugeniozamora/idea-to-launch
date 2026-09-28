@@ -11,4 +11,4 @@ Newest first. Log decisions, not implementation: git already has the code detail
 - **Verified:** [check run and result, e.g. "suite green, 74 tests"]
 - **Skills used:** [e.g. brainstorming, tdd]
 - **PR:** [link]
-- **Next:** [same as PLAN_MAESTRO §8 next step]
+- **Next:** [same as MASTER_PLAN §8 next step]

@@ -1,6 +1,6 @@
 # [Product name]
 
-Read `PLAN_MAESTRO.md` §8 and the newest `LOG.md` entry before doing anything. This project follows the `idea-to-launch` method.
+Read `MASTER_PLAN.md` §8 and the newest `LOG.md` entry before doing anything. This project follows the `idea-to-launch` method.
 
 ## Stack
 - [Framework, language, database, hosting]
@@ -20,4 +20,4 @@ Read `PLAN_MAESTRO.md` §8 and the newest `LOG.md` entry before doing anything. 
 ## Hard rules
 - [e.g. no web target; user content never leaves the device]
 
-<!-- Keep under 60 lines. No state or history here: that's PLAN_MAESTRO.md and LOG.md. -->
+<!-- Keep under 60 lines. No state or history here: that's MASTER_PLAN.md and LOG.md. -->

@@ -9,7 +9,7 @@ that doesn't cost anything.
 
 ## 1. Principles
 
-- **One source of truth.** A single `PLAN_MAESTRO.md` anchors the project. If it
+- **One source of truth.** A single `MASTER_PLAN.md` anchors the project. If it
   isn't there, it wasn't decided.
 - **Treat it as a real business.** When unsure, pick what a founder risking their
   own money would pick. If an option only makes sense "because it's an
@@ -53,7 +53,7 @@ an analytics SDK with platform-native stats after a privacy decision.
 ## 3. Folder conventions
 
 ```
-/PLAN_MAESTRO.md            ← source of truth (context, locked decisions, stages, state)
+/MASTER_PLAN.md            ← source of truth (context, locked decisions, stages, state)
 /LOG.md                     ← session log, newest first (see §10 — split this out from day 1)
 /docs/stage-N-name/         ← deliverables of each stage
 /docs/plans/                ← detailed implementation plans per stage/slice
@@ -67,7 +67,7 @@ Name deliverable docs by what they are (`brand-guide.md`, `flows.md`,
 
 ---
 
-## 4. PLAN_MAESTRO.md structure
+## 4. MASTER_PLAN.md structure
 
 | § | Content |
 |---|---|
@@ -83,7 +83,7 @@ Name deliverable docs by what they are (`brand-guide.md`, `flows.md`,
 
 ### Session rituals
 
-- **Start:** *"Read PLAN_MAESTRO.md §8. We're on Stage N, task X."* Claude reads
+- **Start:** *"Read MASTER_PLAN.md §8. We're on Stage N, task X."* Claude reads
   the plan and the linked docs before doing anything.
 - **Close:** update §8 with what was done, the decisions made (with the reason),
   what was verified and how, and the **concrete next step**. A session that
@@ -166,8 +166,8 @@ constant check-ins. Writing good criteria is the PM's main skill here.
 | Tool | Holds | Doesn't hold |
 |---|---|---|
 | `CLAUDE.md` (global) | How you work everywhere: language, commit format, git safety, simplicity rules, UI rules | Anything project-specific |
-| `CLAUDE.md` (project) | Stack, commands, commit scopes, project hard rules, "read PLAN_MAESTRO first" | State or history |
-| `PLAN_MAESTRO.md` | Decisions, stages, state | Code-level detail that git already records |
+| `CLAUDE.md` (project) | Stack, commands, commit scopes, project hard rules, "read MASTER_PLAN first" | State or history |
+| `MASTER_PLAN.md` | Decisions, stages, state | Code-level detail that git already records |
 | Plans (`docs/plans/*.md`) | The detailed plan for a stage or slice, written before coding and approved by the PM | Status updates after the work |
 | Memories | Short, non-obvious facts that survive across sessions: environment gotchas, user corrections, pointers to docs | Copies of plan content. Point to the source instead. |
 

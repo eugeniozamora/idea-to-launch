@@ -1,4 +1,4 @@
-# PLAN MAESTRO — [Product name] (working title)
+# MASTER PLAN — [Product name] (working title)
 
 > The source of truth for this project. Every session reads §8 first.
 > If it isn't here, it wasn't decided.
@@ -7,7 +7,7 @@
 
 ## 0. How to use this document
 
-- **Open a session:** "Read PLAN_MAESTRO.md §8 and the latest LOG.md entry. We're on Stage N, task X."
+- **Open a session:** "Read MASTER_PLAN.md §8 and the latest LOG.md entry. We're on Stage N, task X."
 - **Close a session:** update §8 (status, next step, open items) and add a LOG.md entry. A session that doesn't update §8 didn't happen.
 - Stage deliverables live in `docs/stage-N-name/`. Detailed plans live in `docs/plans/`.
 - **Decision rule:** when unsure, choose what a founder risking their own money would choose.
