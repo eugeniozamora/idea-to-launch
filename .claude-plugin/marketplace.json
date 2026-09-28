@@ -1,0 +1,14 @@
+{
+  "name": "pm-led-delivery",
+  "owner": {
+    "name": "Eugenio Zamora",
+    "url": "https://eugeniozamora.com"
+  },
+  "plugins": [
+    {
+      "name": "pm-led-delivery",
+      "source": "./",
+      "description": "PM-led, AI-executed product delivery: 8 stages from idea to go-live, a single source-of-truth plan, session rituals and verifiable criteria."
+    }
+  ]
+}
