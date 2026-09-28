@@ -1,4 +1,4 @@
-# PM-led, AI-executed delivery
+# Idea to Launch
 
 > A method, and an installable Claude Code skill, for taking a product from idea to go-live with a PM who decides and an AI that builds.
 
@@ -34,7 +34,7 @@ flowchart LR
     S8 -. "data → change → measure" .-> S5
 ```
 
-Each stage has the same template: objective, key decisions, deliverables, "done when", and the PM/Claude split. See [`references/stages.md`](skills/pm-led-delivery/references/stages.md).
+Each stage has the same template: objective, key decisions, deliverables, "done when", and the PM/Claude split. See [`references/stages.md`](skills/idea-to-launch/references/stages.md).
 
 ## Who does what
 
@@ -50,8 +50,8 @@ Each stage has the same template: objective, key decisions, deliverables, "done 
 In Claude Code:
 
 ```
-/plugin marketplace add eugeniozamora/pm-led-delivery
-/plugin install pm-led-delivery@pm-led-delivery
+/plugin marketplace add eugeniozamora/idea-to-launch
+/plugin install idea-to-launch@idea-to-launch
 ```
 
 Then start a project with the kickoff prompt in [`PROMPTS.md`](PROMPTS.md), or just describe your idea and say you want to build it with this method. After that, "open the session" and "close the session" are all you need day to day.
@@ -61,7 +61,7 @@ The skill orchestrates rather than duplicates: at each step it hands off to the 
 ## What's inside
 
 ```
-skills/pm-led-delivery/
+skills/idea-to-launch/
 ├── SKILL.md                    how Claude runs the method: modes, rituals, criteria, slices
 ├── references/
 │   ├── methodology.md          the full method and the reasoning behind it
@@ -87,7 +87,7 @@ The method was refined by running it on a real launch, and the skill applies the
 
 **Scope note:** Stages 1–6 were run in full on Byrnit. Stages 7 (analytics) and 8 (growth) are defined but haven't yet been run to completion.
 
-Read the full reasoning in [`methodology.md`](skills/pm-led-delivery/references/methodology.md).
+Read the full reasoning in [`methodology.md`](skills/idea-to-launch/references/methodology.md).
 
 ---
 

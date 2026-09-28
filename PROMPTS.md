@@ -1,6 +1,6 @@
 # Prompts
 
-Ready-to-paste prompts for running a project with the `pm-led-delivery` skill. Replace `[brackets]` before sending.
+Ready-to-paste prompts for running a project with the `idea-to-launch` skill. Replace `[brackets]` before sending.
 
 **Tips:**
 - **Fill in the kickoff placeholders carefully.** The better the idea description, the fewer questions the first session needs.
@@ -12,7 +12,7 @@ Ready-to-paste prompts for running a project with the `pm-led-delivery` skill. R
 ## 1. First session (kickoff)
 
 ```
-Use the pm-led-delivery skill. We're starting a new project: a [B2B SaaS / consumer app / …].
+Use the idea-to-launch skill. We're starting a new project: a [B2B SaaS / consumer app / …].
 
 The idea: [2–3 sentences: the problem, who has it, how they solve it today].
 My role: PM / Product Owner / QA. I don't write code.

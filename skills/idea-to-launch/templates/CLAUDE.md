@@ -1,6 +1,6 @@
 # [Product name]
 
-Read `PLAN_MAESTRO.md` §8 and the newest `LOG.md` entry before doing anything. This project follows the `pm-led-delivery` method.
+Read `PLAN_MAESTRO.md` §8 and the newest `LOG.md` entry before doing anything. This project follows the `idea-to-launch` method.
 
 ## Stack
 - [Framework, language, database, hosting]

@@ -1,11 +1,11 @@
 {
-  "name": "pm-led-delivery",
-  "description": "PM-led, AI-executed product delivery: take a product from idea to go-live across many Claude Code sessions with a PM who decides and Claude who builds.",
+  "name": "idea-to-launch",
+  "description": "Take a product from idea to go-live across many Claude Code sessions with a PM who decides and Claude who builds.",
   "version": "0.1.0",
   "author": {
     "name": "Eugenio Zamora",
     "url": "https://eugeniozamora.com"
   },
-  "homepage": "https://github.com/eugeniozamora/pm-led-delivery",
-  "repository": "https://github.com/eugeniozamora/pm-led-delivery"
+  "homepage": "https://github.com/eugeniozamora/idea-to-launch",
+  "repository": "https://github.com/eugeniozamora/idea-to-launch"
 }

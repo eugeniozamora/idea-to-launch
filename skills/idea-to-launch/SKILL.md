@@ -1,9 +1,9 @@
 ---
-name: pm-led-delivery
+name: idea-to-launch
 description: Run a product from idea to go-live with a human PM who decides and Claude who builds, across many cold-start sessions. Covers the 8 stages (ideation, market listening, brand, UX, landing + waitlist, MVP in vertical slices, launch, analytics, growth), a PLAN_MAESTRO.md source of truth, session start/close rituals, decision records and verifiable criteria. Use this whenever someone wants to start a new app, SaaS or product from an idea, says they're a PM/founder who doesn't code and wants Claude to build it, mentions PLAN_MAESTRO.md, asks to open or close a working session on a product, asks "which stage are we on" or "what's next", or wants to plan market research, branding, a landing page, a launch or post-launch iteration — even if they never say "methodology".
 ---
 
-# PM-led, AI-executed delivery
+# Idea to Launch
 
 A way to take a product from idea to live when a **PM decides** and **Claude builds**. The work spans many separate conversations, each starting with no memory, so everything here exists to make a cold start cost nothing: one plan file holds the truth, every session opens and closes the same way, and every task can be checked by someone who didn't do it.
 

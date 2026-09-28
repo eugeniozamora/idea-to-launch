@@ -1,15 +1,15 @@
 {
-  "name": "pm-led-delivery",
-  "description": "PM-led, AI-executed product delivery by Eugenio Zamora.",
+  "name": "idea-to-launch",
+  "description": "Idea to Launch by Eugenio Zamora: take a product from idea to go-live with a PM who decides and Claude who builds.",
   "owner": {
     "name": "Eugenio Zamora",
     "url": "https://eugeniozamora.com"
   },
   "plugins": [
     {
-      "name": "pm-led-delivery",
+      "name": "idea-to-launch",
       "source": "./",
-      "description": "PM-led, AI-executed product delivery: 8 stages from idea to go-live, a single source-of-truth plan, session rituals and verifiable criteria."
+      "description": "Take a product from idea to go-live with a PM who decides and Claude who builds: 8 stages, a single source-of-truth plan, session rituals and verifiable criteria."
     }
   ]
 }

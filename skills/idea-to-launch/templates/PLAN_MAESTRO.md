@@ -81,7 +81,7 @@
 
 ## 5. Working method
 
-PM-led, AI-executed delivery (the `pm-led-delivery` skill). Tasks are written as `[action] → verify: [check]`.
+Idea to Launch (the `idea-to-launch` skill). Tasks are written as `[action] → verify: [check]`.
 
 ---
 

@@ -1,4 +1,4 @@
-# Methodology — PM-led, AI-executed product building
+# Idea to Launch — Methodology
 
 A reusable way to take a product from idea to live, iterating product with a PM
 who decides and an AI (Claude) that builds. The work runs across many separate
