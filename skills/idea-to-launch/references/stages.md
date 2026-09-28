@@ -2,7 +2,7 @@
 
 Stages follow dependency order, not a strict waterfall; some overlap is normal. Each stage uses the same template, and the plan's §4 copies it per stage:
 
-> **Objective · What the PM learns · Key decisions · Deliverables · Tools · Done when · Split (PM / Claude)**
+> **Objective · What the product manager (PM) learns · Key decisions · Deliverables · Tools · Done when · Split (PM / Claude)**
 
 State never lives here or in §4: only the §8 status line carries it (✅ done · 🔨 in progress · ⬜ not started · ⚠️ reframed).
 

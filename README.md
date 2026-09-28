@@ -1,6 +1,6 @@
 # Idea to Launch
 
-> A method, and an installable Claude Code skill, for taking a product from idea to go-live with a PM who decides and an AI that builds.
+> A method, and an installable Claude Code skill, for taking a product from idea to go-live with a product manager (PM) who decides and an AI that builds.
 
 Most "build it with AI" stories stop at the code. This method covers the whole path: validating the idea, listening to the market, brand, UX, a landing page that collects real sign-ups, the MVP, the store launch, and what comes after. The PM never writes code. The PM's job is the one that decides whether AI delivery works: clear goals, verifiable acceptance criteria, product decisions and QA.
 

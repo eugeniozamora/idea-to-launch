@@ -1,7 +1,7 @@
 # Idea to Launch — Methodology
 
-A reusable way to take a product from idea to live, iterating product with a PM
-who decides and an AI (Claude) that builds. The work runs across many separate
+A reusable way to take a product from idea to live, iterating product with a product
+manager (PM) who decides and an AI (Claude) that builds. The work runs across many separate
 conversations, and each one starts with no context. Everything below exists so
 that doesn't cost anything.
 

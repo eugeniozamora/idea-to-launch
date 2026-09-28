@@ -15,7 +15,7 @@ Ready-to-paste prompts for running a project with the `idea-to-launch` skill. Re
 Use the idea-to-launch skill. We're starting a new project: a [B2B SaaS / consumer app / …].
 
 The idea: [2–3 sentences: the problem, who has it, how they solve it today].
-My role: PM / Product Owner / QA. I don't write code.
+My role: product manager (PM) / Product Owner / QA. I don't write code.
 Constraints: [budget, deadline, stack preferences, anything already decided].
 
 Work through Stage 1 with me, one question at a time. Once it's agreed,

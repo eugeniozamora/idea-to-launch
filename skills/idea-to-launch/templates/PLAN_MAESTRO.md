@@ -20,7 +20,7 @@
 [What success looks like, in one or two sentences.]
 
 ### 1.2 Roles
-- **PM / Product Owner / QA:** [name]. Sets criteria, decides, runs QA, owns accounts, money, publishing and outreach.
+- **Product manager (PM) / Product Owner / QA:** [name]. Sets criteria, decides, runs QA, owns accounts, money, publishing and outreach.
 - **Claude:** architecture, code, tests, drafts of copy and assets, analysis with a recommendation.
 
 ### 1.3 Locked decisions

@@ -8,7 +8,7 @@ Decisions are what cold-start sessions need most. Without the reason attached, t
 | **Product decision (dated)** | `LOG.md` entry, titled `📌 DECISION (<date>)` | What, why (policy, brand, data), what it cancels, what stays dormant in the code. |
 | **Parked** | §8 open items or the stage doc, titled `📌 PARKED` | The question, the options (a/b/c), the recommendation, and the trigger that would reopen it. Say explicitly that it isn't a forgotten slice. |
 | **Booked** | §8 open items, titled `📌 BOOKED <stage>` | Analysis already done plus the order to execute it in, so the future stage starts warm. |
-| **Reversed after QA** | Inside the slice's log entry, under "QA revisions" | Numbered list: what was built, why it confused or failed once the PM used it, and what replaced it. Mark rejected options "do not reopen". |
+| **Reversed after QA** | Inside the slice's log entry, under "QA revisions" | Numbered list: what was built, why it confused or failed once the product manager (PM) used it, and what replaced it. Mark rejected options "do not reopen". |
 | **Correction** | Where the wrong note was | Say explicitly that it corrects an earlier entry and what was wrong. Don't just overwrite it. |
 
 ## Examples
