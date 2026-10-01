@@ -47,12 +47,21 @@ Each stage has the same template: objective, key decisions, deliverables, "done 
 
 ## Install the skill
 
-In Claude Code:
+You need [Claude Code](https://claude.com/claude-code) installed. From any terminal:
+
+```bash
+claude plugin marketplace add eugeniozamora/idea-to-launch
+claude plugin install idea-to-launch@idea-to-launch
+```
+
+Or, inside a Claude Code session in the terminal:
 
 ```
 /plugin marketplace add eugeniozamora/idea-to-launch
 /plugin install idea-to-launch@idea-to-launch
 ```
+
+The `/plugin` command isn't available in every environment, for example the VS Code extension. If you see "/plugin isn't available in this environment", use the terminal commands above. Once installed, the skill works everywhere, including the extension. Start a new session to load it.
 
 Then start a project with the kickoff prompt in [`PROMPTS.md`](PROMPTS.md), or just describe your idea and say you want to build it with this method. After that, "open the session" and "close the session" are all you need day to day.
 
